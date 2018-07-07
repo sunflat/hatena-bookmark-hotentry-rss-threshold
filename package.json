@@ -1,0 +1,17 @@
+{
+  "name": "hatena-bookmark-hotentry-rss-threshold",
+  "version": "1.0.0",
+  "description": "Filter hotentry.rss of Hatena bookmark with a threshold.",
+  "scripts": {
+    "test": "node test/filterHotentryTest",
+    "build": "netlify-lambda build src",
+    "serve": "netlify-lambda serve src"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^0.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "xml2js": "^0.4.19"
+  }
+}
